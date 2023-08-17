@@ -3,10 +3,14 @@
 </script>
 
 <template>
-  a 
-  
+
+
+    a
+
 </template>
 
-<style scoped>
+<style>
+
+
 
 </style>
