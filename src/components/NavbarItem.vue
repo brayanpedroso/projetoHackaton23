@@ -3,12 +3,17 @@
     <router-link id="logo-url" to="/">
       <img id="logo" src="@/assets/m 1.png" :alt="alt">
     </router-link>
-    <router-link to="/">Fazer Pedido</router-link>
-    <router-link to="/pedidos">Pedidos</router-link>
+    <router-link class="bot1" to="/">Fazer Pedido</router-link>
+    <router-link class="bo2" to="/pedidos">Pedidos</router-link>
   </div>
+
+
+
+
 </template>
   
 <script script>
+
 </script>
   
 <style scoped>
@@ -29,6 +34,7 @@
 #logo {
   width: 40px;
   height: 40px;
+ 
 }
 
 router-link {
@@ -36,9 +42,11 @@ router-link {
   text-decoration: none;
   margin: 12px;
   transition: .5s;
+  
 }
 
 router-link:hover {
   color: #FFF;
 }
+
 </style>
