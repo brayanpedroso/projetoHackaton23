@@ -3,8 +3,13 @@
     <router-link id="logo-url" to="/">
       <img id="logo" src="@/assets/m 1.png" :alt="alt">
     </router-link>
-    <router-link class="bot1" to="/">Fazer Pedido</router-link>
+
+       <router-link class="bot1" to="/">Fazer Pedido</router-link>
+      
+
     <router-link class="bo2" to="/pedidos">Pedidos</router-link>
+    
+   
   </div>
 
 
@@ -18,12 +23,14 @@
   
 <style scoped>
 #nav {
-  background-color: #222;
-  border-bottom: 4px solid #111;
+  background: linear-gradient(183deg, rgba(155, 155, 155, 0.54) 0%, rgba(217, 217, 217, 0.00) 100%);
   padding: 15px 50px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  width: 1905px;
+  height: 100px;
+  flex-shrink: 0;
 }
 
 #nav #logo-url {
@@ -32,21 +39,30 @@
 }
 
 #logo {
-  width: 40px;
-  height: 40px;
- 
+  width: 70px;
+  height: 70px;
 }
 
-router-link {
-  color: #fcba03;
+router-link{
+
   text-decoration: none;
-  margin: 12px;
   transition: .5s;
-  
+  width: 221px;
+height: 71px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+
 }
 
 router-link:hover {
   color: #FFF;
 }
+
 
 </style>

@@ -14,7 +14,7 @@ export default {
 
 <style scoped>
 #main-banner {
-    background-image: url('/srcimg/fundo.png');
+
     background-position: 0 -250px;
     background-size: cover;
     height: 500px;
