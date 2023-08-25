@@ -1,10 +1,4 @@
-<!-- eslint-disable vue/no-unused-components -->
-<!-- eslint-disable vue/multi-word-component-names -->
-<!-- eslint-disable vue/no-unused-components -->
-<!-- eslint-disable vue/no-unused-components -->
-<!-- eslint-disable vue/multi-word-component-names -->
-<!-- eslint-disable vue/multi-word-component-names -->
-// eslint-disable-next-line vue/multi-word-component-names
+
 <template>
     <p>banner</p>
     <div class="main-container">

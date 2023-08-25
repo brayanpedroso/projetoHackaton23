@@ -1,17 +1,26 @@
 <template>
   <div id="nav">
-    <router-link id="logo-url" to="/">
-      <img id="logo" src="@/assets/m 1.png" :alt="alt">
-    </router-link>
-
-       <router-link class="bot1" to="/">Fazer Pedido</router-link>
-      
-
-    <router-link class="bo2" to="/pedidos">Pedidos</router-link>
-    
+   <div id="logo-url">
+     <img id="logo" src="@/assets/m 1.png" :alt="alt">
+   </div>
+   <div class="container mt-3">
+  
+  
+  <ul class="nav">
+    <li class="nav-item">
+      <p>pisos</p>
+    </li>
+    <li class="nav-item">
+      <p>Sobre Nós</p>
+    </li>
+    <li class="nav-item">
+      <p>Curriculo</p>
+    </li>
    
-  </div>
-
+  </ul>
+</div>
+  
+</div>
 
 
 
@@ -28,14 +37,15 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 1905px;
+  width: 1583px;
   height: 100px;
   flex-shrink: 0;
 }
 
-#nav #logo-url {
+ #logo-url {
   margin: auto;
   margin-left: 0;
+  
 }
 
 #logo {
@@ -43,7 +53,8 @@
   height: 70px;
 }
 
-router-link{
+
+.nav-item{
 
   text-decoration: none;
   transition: .5s;
@@ -56,13 +67,10 @@ font-size: 32px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-
-
 }
 
-router-link:hover {
-  color: #FFF;
-}
+
+
 
 
 </style>

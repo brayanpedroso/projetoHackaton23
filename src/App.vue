@@ -14,6 +14,7 @@
 import NavbarItem from './components/NavbarItem.vue'
 import RodapeItem from './components/RodapeItem.vue'
 
+
 </script>
   
   <style>
